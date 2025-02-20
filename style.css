@@ -4,21 +4,22 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Header Image Section */
+/* Header Image Section (default image set dynamically) */
 .header-image {
     position: relative;
     width: 100%;
     height: 350px; /* Adjust height as needed */
-    background: url('images/header-image.jpg') no-repeat center center/cover;
+    background: url('images/default-header.jpg') no-repeat center center/cover;
 }
 
+/* Overlay for better readability */
 .header-overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
+    background: rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,11 +36,6 @@ body {
 .header-subtitle {
     font-size: 1.2rem;
     margin-top: 10px;
-}
-
-/* Main content styling */
-.container {
-    padding: 20px;
 }
 
 /* Responsive Design */
